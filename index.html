@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>refresher</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    .centered-div {
+        width: 300;
+        margin: 0 auto; /* This is the key for horizontal centering */
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center; /* Centers content within the div */
+    }
+    .container {
+        display: flex; /* Enable Flexbox on the container */
+        align-items: center;
+        justify-content: center;
+        hieght: 200px;
+        border: 3px sold;
+    }
+    .item {
+        padding: 0px;
+        margin-right: 10px; /* Add some spacing between items */
+    }
+    .coolbutton {
+        padding: 10px;
+        background-color: skyblue;
+        border: 1px solid;
+        border-color: grey;
+      
+    }
+    .statement{
+        padding: 10px;
+    }
+    .coderimg{
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="centered-div"">
+    
+    <div class="container">
+      <h1 style="margin-right: 60%"">MEXICODE</h1>
+      <div class="item">
+        <a href="people.html">
+            <button class="coolbutton">People</button>
+        </a>
+      </div>
+      <div class="item">
+        <a href="student.html">
+            <button class="coolbutton">apply as student</button>
+        </a>
+      </div>
+      <div class="item">
+        <a href="student.html">
+            <button class="coolbutton">apply as mentor</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h3 class="statement">Mexicode is an international non-profit organization empowering young mexican coders since 2024.</h3>
+    <img scr="coder.png" alt="coderkid" class="coderimg"">
+  </div> 
+  <script src="script.js"></script>
+</body>
+
+</html>
